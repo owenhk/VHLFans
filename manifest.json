@@ -4,7 +4,7 @@
   "version": "1.2",
   "description": "Adds a button to VHL Central lessons to send an API request.",
   "permissions": ["tabs", "scripting", "activeTab"],
-  "host_permissions": ["*://*/*"],
+  "host_permissions": ["https://king-prawn-app-hc89j.ondigitalocean.app/*"],
   "content_scripts": [
     {
       "matches": ["https://*.vhlcentral.com/*"],
