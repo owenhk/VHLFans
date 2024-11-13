@@ -24,8 +24,6 @@
       "resources": ["results.html", "results.js", "styles.css"],
       "matches": ["<all_urls>"]
     }
-  ],
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5y7pNt9+AAYS0J39XZ7icX/vx239SSwNs4J5IkK4xPkjLR7bJdnagm15N9YykZ3RnLrjUVkltgS7jJ0p1/KXrMSha0UuO1jgnlDSKWg7ukfPSIWRwcaA4A7kbIjd6qx2yYs83Hy2+k6MGTyAODNQ7f8up+ikGQhwf96WLVKNFt71Thqm6uqbj6iEod/0HTVy2BfplHc1jcnm27dljpGXSaB7JIXPoMzkpkkTNYWyvDPip6MCVulEeHomiS58puTroNhg/hz9KIwZgFc05UKN81Lh1M0YANTVrRqrW/lzxvOvhTweD3xnmxrjLIotpK7UfmBvrsaV30J0JIpyqKY6bQIDAQAB",
-  "update_url": "https://raw.githubusercontent.com/owenhk/VHLFans/main/updates.xml"
+  ]
 
 }

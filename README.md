@@ -12,4 +12,14 @@ VHLFans is a fully featured plugin that:<br>
 💡 Explains answers you based on the context of the lesson, so even though you're not a loser actually doing your VHL, you still learn!
 
 # Getting started with VHLFans is incredibly easy!<br>
-Head to our [GitHub releases](https://github.com/owenhk/VHLFans/releases) and download the latest .crx file. Then, go to chrome://extensions and turn on the developer mode check box in the top right. Finally, drag that .crx file right in. The extension will automatically update!
+![Download on Github](https://ununiquestorage.sfo2.cdn.digitaloceanspaces.com/CleanShot%202024-11-12%20at%2018.13.46.gif)<br>
+First, download this repo as a .zip. Find it in your Finder and double click it. Mac will unzip it automatically.
+
+![Head to chrome://extensions](https://ununiquestorage.sfo2.cdn.digitaloceanspaces.com/CleanShot%202024-11-12%20at%2018.16.09.gif)<br>
+Next, head to [chrome://extensions](chrome://extensions) on your computer and enable dev mode in the top right. This allows you to install unofficial extensions.
+
+![Click Load Unpacked and choose the folder you downloaded](https://ununiquestorage.sfo2.cdn.digitaloceanspaces.com/CleanShot%202024-11-12%20at%2018.19.05.gif)<br>
+Click Load Unpacked and find the folder you downloaded. Select & load the entire folder.
+
+# You're done! Head to a VHL exercise and you'll see a Cheat with VHL button!<br>
+Good luck out there friend!
