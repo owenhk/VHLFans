@@ -12,11 +12,17 @@ function getLessonName() {
   function getQuestions() {
     const questions = [];
     const questionElements = document.querySelectorAll('.questions');
-    questionElements.forEach(questionElement => {
-      const questionText = questionElement.querySelector('div[data-helpable-type="whole_question"]').textContent.trim();
-      questions.push(questionText);
+    questionElements.forEach((questionElement) => {
+      const questionTextElement = questionElement.querySelector(
+        'div[data-helpable-type="whole_question"]'
+      );
+      if (questionTextElement) {
+        const questionText = questionTextElement.textContent.trim();
+        questions.push(questionText);
+      }
     });
-    return questions;
+    // Return a comma-separated list of questions
+    return questions.join(', ');
   }
 
 // Select the header container and the <hr> element
@@ -48,29 +54,28 @@ if (headerContainer && hrElement) {
 
 // Add click event listener
 button.addEventListener('click', () => {
-    button.innerText = 'Loading...';
-    button.disabled = true;
-  
-    // Extract data
-    const lessonName = getLessonName();
-    const questions = getQuestions();
-  
-    // Send a message to the background script to make the API request
-    chrome.runtime.sendMessage(
-      {
-        action: 'apiRequest',
-        lessonName: lessonName,
-        questions: questions
-      },
-      (response) => {
-        if (response.status === 200) {
-          // Open a new tab with the provided URL
-          button.innerText = "VHL tab opened!"
-          chrome.runtime.sendMessage({ action: 'openTab', url: response.url });
-        } else {
-          button.innerText = 'Error, try again';
-        }
-        button.disabled = false;
+  button.innerText = 'Loading...';
+  button.disabled = true;
+
+  // Extract data
+  const lessonName = getLessonName();
+  const questions = getQuestions();
+
+  // Send a message to the background script to make the API request
+  chrome.runtime.sendMessage(
+    {
+      action: 'apiRequest',
+      lessonName: lessonName,
+      questions: questions,
+    },
+    (response) => {
+      if (response.status === 200) {
+        // The background script will open the results page
+      } else {
+        button.innerText = 'Error, try again';
+        console.error('API Request Error:', response.error || 'Unknown error');
       }
-    );
-  });
+      button.disabled = false;
+    }
+  );
+});

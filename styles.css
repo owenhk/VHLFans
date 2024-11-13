@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #E4E0E1;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .question {
+    background-color: #D6C0B3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .question h2 {
+    margin-top: 0;
+  }
+  
+  .question-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .answer-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .explanation-text {
+    font-size: 14px;
+    color: #493628;
+  }
+  
+  .copy-button {
+    padding: 8px 12px;
+    background-color: #E4E0E1;
+    color: #AB886D;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copy-button:hover {
+    background-color: #D6C0B3;
+  }
+  
+  /* ... existing styles ... */
+
+.quizlet-button {
+    display: flex;
+    align-items: center; /* Vertically centers the icon and text */
+    gap: 8px; /* Adds space between icon and text */
+    padding: 10px 20px;
+    background-color: #5d6ff0;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quizlet-button svg {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    fill: currentColor; /* Inherit color from the button's text color */
+  }
+  
+  .quizlet-button:hover {
+    background-color: #a2acf6;
+  }
+  
+  .citation {
+    display: flex;
+    align-items: center; /* Vertically centers items */
+    justify-content: center; /* Centers the entire content horizontally */
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+    gap: 8px;
+  }
+
+  .citation svg {
+    fill: currentColor;
+    display: inline-block; /* Helps align SVG within the centered text */
+  }
+  
+  .logo-image {
+    display: block;           /* Makes the image take the whole line, allowing centering */
+    margin: 0 auto;           /* Centers the image horizontally */
+    width: 10vw;              /* Responsive width */
+    height: auto;             /* Maintains aspect ratio */
+  }
+  
