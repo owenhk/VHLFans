@@ -23,3 +23,6 @@ Click Load Unpacked and find the folder you downloaded. Select & load the entire
 
 # You're done! Head to a VHL exercise and you'll see a Cheat with VHL button!<br>
 Good luck out there friend!
+
+# One quick note on updates<br>
+Because this extension isn't on the Chrome Web Store, it can't update itself. That means every time we release a new, innovative, life-changing feature, you'll need to repeat this process. Delete the folder you downloaded, re-download it, and complete the steps outlined again. Don't have duplicate VHLFans extensions running.
