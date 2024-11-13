@@ -23,3 +23,5 @@ Click Load Unpacked and find the folder you downloaded. Select & load the entire
 
 # You're done! Head to a VHL exercise and you'll see a Cheat with VHL button!<br>
 Good luck out there friend!
+
+Please note - VHLFans is not in any way affiliated with, endorsed by, or related to OnlyFans or Vistas Higher Learning.
