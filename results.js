@@ -76,10 +76,12 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Could not copy text:', err);
       }
     );
-    function setupQuizletButton(url) {
-        const quizletButton = document.getElementById('quizlet-button');
-        quizletButton.addEventListener('click', () => {
-          window.open(url, '_blank');
-        });
-      }
-    }
+  }
+  
+  // Move this function to the global scope
+  function setupQuizletButton(url) {
+    const quizletButton = document.getElementById('quizlet-button');
+    quizletButton.addEventListener('click', () => {
+      window.open(url, '_blank');
+    });
+  }

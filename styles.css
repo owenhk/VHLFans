@@ -27,12 +27,13 @@ body {
   }
   
   .question-text {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: medium;
     margin-bottom: 10px;
   }
   
   .answer-text {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
   }
   
@@ -96,7 +97,7 @@ body {
     fill: currentColor;
     display: inline-block; /* Helps align SVG within the centered text */
   }
-  
+
   .logo-image {
     display: block;           /* Makes the image take the whole line, allowing centering */
     margin: 0 auto;           /* Centers the image horizontally */
